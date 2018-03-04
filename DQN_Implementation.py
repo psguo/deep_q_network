@@ -275,8 +275,8 @@ class Replay_Memory:
                 sample_index = np.random.choice(self.memory_counter, size=batch_size)
 
         if self.history_length > 1:
-            history_obs = np.zeros([batch_size] + self.obs.shape[1:] + [self.history_length])
-            history_obs_ = np.zeros([batch_size] + self.obs.shape[1:] + [self.history_length])
+            history_obs = np.zeros([batch_size] + list(self.obs.shape[1:]) + [self.history_length])
+            history_obs_ = np.zeros([batch_size] + list(self.obs.shape[1:]) + [self.history_length])
 
             for i, sample_index_elem in enumerate(sample_index_history_list):
                 history_obs[:, :, :, i] = self.obs[sample_index_elem]

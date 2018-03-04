@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="922a13df-790d-4137-997d-3b24e7b1394a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/DQN_Implementation.py" afterPath="$PROJECT_DIR$/DQN_Implementation.py" />
-      <change beforePath="$PROJECT_DIR$/video/Q5/si/openaigym.video.0.1309.video000000.meta.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q5/si/openaigym.video.0.1309.video000000.mp4" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +16,8 @@
       <file leaf-file-name="DQN_Implementation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DQN_Implementation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="437" column="62" lean-forward="false" selection-start-line="437" selection-start-column="46" selection-end-line="437" selection-end-column="62" />
+            <state relative-caret-position="535">
+              <caret line="277" column="99" lean-forward="true" selection-start-line="277" selection-start-column="99" selection-end-line="277" selection-end-column="99" />
               <folding>
                 <element signature="e#23#46#0" expanded="true" />
               </folding>
@@ -169,8 +167,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DQN_Implementation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="437" column="62" lean-forward="false" selection-start-line="437" selection-start-column="46" selection-end-line="437" selection-end-column="62" />
+        <state relative-caret-position="535">
+          <caret line="277" column="99" lean-forward="true" selection-start-line="277" selection-start-column="99" selection-end-line="277" selection-end-column="99" />
           <folding>
             <element signature="e#23#46#0" expanded="true" />
           </folding>
