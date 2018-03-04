@@ -325,11 +325,11 @@ class Replay_Memory:
         return frame
 
     def get_previous_obs(self, n):
-        frame_idx = np.zeros(n)
+        history_obs = np.zeros(list(self.obs.shape[1:]) + [n])
         current_idx = self.memory_counter % self.memory_size
         for i in range(1, n+1):
-            frame_idx[i-1] = current_idx-i if current_idx-i >= 0 else self.memory_size+current_idx-i
-        return self.obs[frame_idx]
+            history_obs[:,:,i-1] = self.obs[current_idx-i if current_idx-i >= 0 else self.memory_size+current_idx-i, :, :]
+        return history_obs
 
 class DQN_Agent:
 
@@ -436,7 +436,7 @@ class DQN_Agent:
 
                 if self.is_image_input:
                     obs_history = self.memory.get_previous_obs(self.memory.history_length - 1)
-                    total_obs = np.concatenate(obs_history, observation)
+                    total_obs = np.concatenate((np.expand_dims(self.memory.convert_frame(observation), axis=2), obs_history), axis=2)
                     action = self.epsilon_greedy_policy(total_obs, self.epsilon)
                 else:
                     action = self.epsilon_greedy_policy(observation, self.epsilon)

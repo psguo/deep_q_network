@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="922a13df-790d-4137-997d-3b24e7b1394a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/DQN_Implementation.py" afterPath="$PROJECT_DIR$/DQN_Implementation.py" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.episode_batch.0.20380.stats.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.manifest.0.20380.manifest.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000000.meta.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000000.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000200.meta.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000200.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000340.meta.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000340.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000480.meta.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/video/Q3/mc/openaigym.video.0.20380.video000480.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/Q5/si/openaigym.video.0.1309.video000000.meta.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/video/Q5/si/openaigym.video.0.1309.video000000.mp4" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +18,8 @@
       <file leaf-file-name="DQN_Implementation.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DQN_Implementation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="555" column="33" lean-forward="false" selection-start-line="555" selection-start-column="33" selection-end-line="555" selection-end-column="33" />
+            <state relative-caret-position="337">
+              <caret line="437" column="62" lean-forward="false" selection-start-line="437" selection-start-column="46" selection-end-line="437" selection-end-column="62" />
               <folding>
                 <element signature="e#23#46#0" expanded="true" />
               </folding>
@@ -48,20 +40,23 @@
       <find>sample_batch</find>
       <find>batch_memory</find>
       <find>train(</find>
-      <find>predict</find>
       <find>self.memory</find>
       <find>epsi</find>
       <find>is_image_input</find>
       <find>sample</find>
       <find>QNetwork</find>
       <find>history_length</find>
-      <find>Replay_Memory</find>
       <find>epsilon_greedy_policy</find>
       <find>q_cur_action</find>
       <find>predict(</find>
       <find>self.q_cur</find>
       <find>print(</find>
       <find>video_pro</find>
+      <find>self.obs</find>
+      <find>Replay_Memory</find>
+      <find>predict</find>
+      <find>concatenate</find>
+      <find>get_previous_obs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -174,8 +169,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DQN_Implementation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="555" column="33" lean-forward="false" selection-start-line="555" selection-start-column="33" selection-end-line="555" selection-end-column="33" />
+        <state relative-caret-position="337">
+          <caret line="437" column="62" lean-forward="false" selection-start-line="437" selection-start-column="46" selection-end-line="437" selection-end-column="62" />
           <folding>
             <element signature="e#23#46#0" expanded="true" />
           </folding>
